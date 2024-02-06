@@ -62,7 +62,7 @@ function Design() {
           value: "#008080",
         },
         links: {
-          color: "#ffffff",
+          color: "#008080",
           distance: 150,
           enable: true,
           opacity: 0.5,
