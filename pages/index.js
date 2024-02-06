@@ -39,6 +39,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Design from "./components/Design";
+import { Typewriter } from "react-simple-typewriter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -124,7 +125,16 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2">
               <span className="box-decoration-slice bg-gradient-to-r from-teal-600 to-teal-900 text-white px-2 ...">
-                Fullstack Developer
+                {/* Fullstack Developer */}
+                <Typewriter
+                  words={["Fullstack Developer"]}
+                  loop={10}
+                  cursor={true}
+                  cursorStyle="|"
+                  typeSpeed={150}
+                  deleteSpeed={70}
+                  delaySpeed={1000}
+                />
               </span>
             </h3>
             <p className="text-md py-5 leading-8 text-gray-400 md:text-xl max-w-l mx-auto">
