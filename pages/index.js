@@ -59,7 +59,7 @@ export default function Home() {
       </Head>
       <main className="px-10  md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="pt-3 mb-12 flex justify-between">
+          <nav className="pt-3 mb-12 flex flex-wrap justify-between">
             <h1 className="text-xl font-burtons">
               salomon<span className="text-amber-300">dev</span>
             </h1>
