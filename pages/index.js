@@ -68,7 +68,7 @@ export default function Home() {
                 <BsFillMoonStarsFill className="cursor-pointer text-xl" />
               </li> */}
 
-              <li className="pr-1">
+              {/* <li className="pr-1">
                 <Image style={{ width: "50px" }} src={reactsvg} />
               </li>
               <li className="pr-1">
@@ -79,7 +79,18 @@ export default function Home() {
               </li>
               <li className="pr-1">
                 <Image style={{ width: "50px" }} src={express} />
+              </li> */}
+              <li className="pr-1">
+                <div className="text-5xl flex justify-center">
+                  <AiFillGithub />
+                </div>
               </li>
+              <li className="pr-1">
+                <div className="text-5xl flex justify-center">
+                  <AiFillLinkedin />
+                </div>
+              </li>
+
               <li>
                 <button
                   className=" text-white px-4 py-2 rounded-md ml-8 outline outline-offset-2 outline-teal-500"
@@ -109,11 +120,11 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 mb-4">
-            <AiFillGithub />
+            {/* <AiFillGithub />
             <AiFillLinkedin />
-            <AiFillYoutube />
+            <AiFillYoutube /> */}
           </div>
-          <div className="relative mb-5 mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 overflow-hidden md:h-66 md:w-66">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 overflow-hidden md:h-66 md:w-66">
             <Image
               src={deved}
               alt="imagewave"
@@ -132,35 +143,35 @@ export default function Home() {
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={reactsvg} />
-                  <span className="text-base">React Js</span>
+                  <span className="text-sm">React Js</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={vuejslogo} />
-                  <span className="text-base">Vue Js</span>
+                  <span className="text-sm">Vue Js</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={html5} />
-                  <span className="text-base">HTML</span>
+                  <span className="text-sm">HTML</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={css3} />
-                  <span className="text-base">CSS</span>
+                  <span className="text-sm">CSS</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={js} />
-                  <span className="text-base">JavaScript</span>
+                  <span className="text-sm">JavaScript</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={bootstrap} />
-                  <span className="text-base">Bootstrap</span>
+                  <span className="text-sm">Bootstrap</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={tailwind} />
-                  <span className="text-base">TailwinCSS</span>
+                  <span className="text-sm">TailwinCSS</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={vuetify} />
-                  <span className="text-base">Vuetify</span>
+                  <span className="text-sm">Vuetify</span>
                 </div>
               </div>
             </div>
@@ -169,27 +180,27 @@ export default function Home() {
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div class="border-2 rounded-lg flex px-2 py-2 ">
                   <Image style={{ width: "30px" }} src={nodejs} />
-                  <span className="text-base">Node Js</span>
+                  <span className="text-sm">Node Js</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={express} />
-                  <span className="text-base">Express Js</span>
+                  <span className="text-sm">Express Js</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={mongodb} />
-                  <span className="text-base">MongoDB</span>
+                  <span className="text-sm">MongoDB</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={nosql} />
-                  <span className="text-base">NoSQL</span>
+                  <span className="text-sm">NoSQL</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={php} />
-                  <span className="text-base">PHP</span>
+                  <span className="text-sm">PHP</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={firebase} />
-                  <span className="text-base">Firebase</span>
+                  <span className="text-sm">Firebase</span>
                 </div>
               </div>
             </div>
@@ -198,23 +209,23 @@ export default function Home() {
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div class="border-2 rounded-lg flex px-2 py-2 ">
                   <Image style={{ width: "30px" }} src={git} />
-                  <span className="text-base">Git</span>
+                  <span className="text-sm">Git</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={bitbucket} />
-                  <span className="text-base">Bitbucket</span>
+                  <span className="text-sm">Bitbucket</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={canva} />
-                  <span className="text-base">Canva</span>
+                  <span className="text-sm">Canva</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={vscode} />
-                  <span className="text-base">VS Code</span>
+                  <span className="text-sm">VS Code</span>
                 </div>
                 <div class="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={mscode} />
-                  <span className="text-base">Microsoft Visual Studio</span>
+                  <span className="text-sm">Microsoft Visual Studio</span>
                 </div>
               </div>
             </div>
@@ -249,7 +260,7 @@ export default function Home() {
                     </span>
                   </h4>
                 </div>
-                <div class="flex pt-5">
+                <div class="flex pt-5  mb-6">
                   <a
                     className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
                     href="https://drive.google.com/file/d/1izs06eI9Wn7v_MfZyq2unJ-PXatjiiAg/view?usp=drive_link"
@@ -279,7 +290,7 @@ export default function Home() {
                     </span>
                   </h4>
                 </div>
-                <div class="flex pt-5">
+                <div class="flex pt-5 mb-6">
                   <a
                     className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
                     href="https://youtu.be/Yo-1ga21KOk?si=4Qmc12ZHoybjYGlI"
@@ -309,7 +320,7 @@ export default function Home() {
                     </span>
                   </h4>
                 </div>
-                <div class="flex pt-5">
+                <div class="flex pt-5 mb-12">
                   <a
                     className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
                     href="https://drive.google.com/file/d/10j9MKPFU--L_35IP_5MVr5ioJ6gJU3nu/view?usp=drive_link"
