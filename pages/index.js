@@ -35,6 +35,9 @@ import bitbucket from "../public/toolsicons/bitbucket.png";
 import canva from "../public/toolsicons/canva.png";
 import vscode from "../public/toolsicons/vscode.png";
 import mscode from "../public/toolsicons/mscode.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,6 +51,10 @@ export default function Home() {
     link.click();
     document.body.removeChild(link);
   };
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
 
   return (
     <div>
@@ -82,12 +89,19 @@ export default function Home() {
               </li> */}
               <li className="pr-1">
                 <div className="text-5xl flex justify-center">
-                  <AiFillGithub />
+                  <a href="https://github.com/enriquesalomon" target="_blank">
+                    <AiFillGithub />
+                  </a>
                 </div>
               </li>
               <li className="pr-1">
                 <div className="text-5xl flex justify-center">
-                  <AiFillLinkedin />
+                  <a
+                    href="https://www.linkedin.com/in/enrique-salomon-573930183"
+                    target="_blank"
+                  >
+                    <AiFillLinkedin />
+                  </a>
                 </div>
               </li>
 
@@ -138,7 +152,10 @@ export default function Home() {
           <h3 className="text-center text-3xl pt-12">Skills</h3>
 
           <div className="lg:flex gap-10">
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10  shadow-teal-500/50  flex-1">
+            <div
+              className=" text-center shadow-lg p-10 rounded-xl my-10  shadow-teal-500/50  flex-1"
+              data-aos="fade-right"
+            >
               <h3 className="text-lg font-medium pt-8 pb-2">FRONTEND</h3>
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div class="border-2 rounded-lg flex px-2 py-2">
@@ -175,7 +192,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  shadow-teal-500/50  shrink-0 ">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10  shadow-teal-500/50  shrink-0 "
+              data-aos="flip-up"
+            >
               <h3 className="text-lg font-medium pt-8 pb-2">BACKEND</h3>
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div class="border-2 rounded-lg flex px-2 py-2 ">
@@ -204,7 +224,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  shadow-teal-500/50 flex-1">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10  shadow-teal-500/50 flex-1"
+              data-aos="fade-left"
+            >
               <h3 className="text-lg font-medium pt-8 pb-2">OTHERS</h3>
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div class="border-2 rounded-lg flex px-2 py-2 ">
@@ -236,7 +259,7 @@ export default function Home() {
             <h3 className="text-center text-3xl py-1 pt-10">Portfolio</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1" data-aos="fade-down-right">
               <Image
                 src={web3}
                 alt=""
@@ -271,7 +294,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1" data-aos="fade-down-left">
               <Image
                 src={web4}
                 alt=""
@@ -301,7 +324,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1" data-aos="fade-down-right">
               <Image
                 src={web1}
                 alt=""
@@ -331,7 +354,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1" data-aos="fade-down-left">
               <Image
                 src={web2}
                 alt=""
@@ -354,7 +377,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1" data-aos="fade-up">
               <Image
                 src={web5}
                 alt=""
