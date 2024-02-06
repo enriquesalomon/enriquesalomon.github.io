@@ -38,6 +38,7 @@ import mscode from "../public/toolsicons/mscode.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Design from "./components/Design";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -122,7 +123,7 @@ export default function Home() {
               {/* </span> */}
             </h2>
             <h3 className="text-2xl py-2">
-              <span class="box-decoration-slice bg-gradient-to-r from-teal-600 to-teal-900 text-white px-2 ...">
+              <span className="box-decoration-slice bg-gradient-to-r from-teal-600 to-teal-900 text-white px-2 ...">
                 Fullstack Developer
               </span>
             </h3>
@@ -158,36 +159,40 @@ export default function Home() {
             >
               <h3 className="text-lg font-medium pt-8 pb-2">FRONTEND</h3>
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={reactsvg} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={reactsvg} alt="react" />
                   <span className="text-sm">React Js</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={vuejslogo} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={vuejslogo} alt="vue" />
                   <span className="text-sm">Vue Js</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={html5} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={html5} alt="html" />
                   <span className="text-sm">HTML</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={css3} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={css3} alt="cssr" />
                   <span className="text-sm">CSS</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={js} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={js} alt="js" />
                   <span className="text-sm">JavaScript</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={bootstrap} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={bootstrap} alt="bs" />
                   <span className="text-sm">Bootstrap</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={tailwind} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image
+                    style={{ width: "30px" }}
+                    src={tailwind}
+                    alt="tailwind"
+                  />
                   <span className="text-sm">TailwinCSS</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={vuetify} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={vuetify} alt="ve" />
                   <span className="text-sm">Vuetify</span>
                 </div>
               </div>
@@ -198,28 +203,40 @@ export default function Home() {
             >
               <h3 className="text-lg font-medium pt-8 pb-2">BACKEND</h3>
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
-                <div class="border-2 rounded-lg flex px-2 py-2 ">
-                  <Image style={{ width: "30px" }} src={nodejs} />
+                <div className="border-2 rounded-lg flex px-2 py-2 ">
+                  <Image style={{ width: "30px" }} src={nodejs} alt="nodejs " />
                   <span className="text-sm">Node Js</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={express} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image
+                    style={{ width: "30px" }}
+                    src={express}
+                    alt="express"
+                  />
                   <span className="text-sm">Express Js</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={mongodb} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image
+                    style={{ width: "30px" }}
+                    src={mongodb}
+                    alt="mongodb"
+                  />
                   <span className="text-sm">MongoDB</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={nosql} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={nosql} alt="nosql" />
                   <span className="text-sm">NoSQL</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={php} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={php} alt="php" />
                   <span className="text-sm">PHP</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={firebase} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image
+                    style={{ width: "30px" }}
+                    src={firebase}
+                    alt="firebase"
+                  />
                   <span className="text-sm">Firebase</span>
                 </div>
               </div>
@@ -230,24 +247,28 @@ export default function Home() {
             >
               <h3 className="text-lg font-medium pt-8 pb-2">OTHERS</h3>
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
-                <div class="border-2 rounded-lg flex px-2 py-2 ">
-                  <Image style={{ width: "30px" }} src={git} />
+                <div className="border-2 rounded-lg flex px-2 py-2 ">
+                  <Image style={{ width: "30px" }} src={git} alt="git" />
                   <span className="text-sm">Git</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={bitbucket} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image
+                    style={{ width: "30px" }}
+                    src={bitbucket}
+                    alt="bitbucket"
+                  />
                   <span className="text-sm">Bitbucket</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={canva} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={canva} alt="canva" />
                   <span className="text-sm">Canva</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={vscode} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={vscode} alt="vscode" />
                   <span className="text-sm">VS Code</span>
                 </div>
-                <div class="border-2 rounded-lg flex px-2 py-2">
-                  <Image style={{ width: "30px" }} src={mscode} />
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={mscode} alt="mscode" />
                   <span className="text-sm">Microsoft Visual Studio</span>
                 </div>
               </div>
@@ -274,8 +295,8 @@ export default function Home() {
                   #ReactJS, #ReactQuery, #ReduxToolkit, #Tailwindcss
                 </span>
               </h4> */}
-              <div class="flex">
-                <div class="grow h-14">
+              <div className="flex">
+                <div className="grow h-14">
                   <h4 className="py-4 text-teal-600 font-bold">
                     Ordering Pizza <br></br>
                     <span className=" text-gray-500 font-semibold">
@@ -283,7 +304,7 @@ export default function Home() {
                     </span>
                   </h4>
                 </div>
-                <div class="flex pt-5  mb-6">
+                <div className="flex pt-5  mb-6">
                   <a
                     className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
                     href="https://drive.google.com/file/d/1izs06eI9Wn7v_MfZyq2unJ-PXatjiiAg/view?usp=drive_link"
@@ -304,8 +325,8 @@ export default function Home() {
                 layout="responsive"
               />
 
-              <div class="flex">
-                <div class="grow h-14">
+              <div className="flex">
+                <div className="grow h-14">
                   <h4 className="py-4 text-teal-600 font-bold">
                     Tour Booking App <br></br>
                     <span className=" text-gray-500 font-semibold">
@@ -313,7 +334,7 @@ export default function Home() {
                     </span>
                   </h4>
                 </div>
-                <div class="flex pt-5 mb-6">
+                <div className="flex pt-5 mb-6">
                   <a
                     className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
                     href="https://youtu.be/Yo-1ga21KOk?si=4Qmc12ZHoybjYGlI"
@@ -327,15 +348,15 @@ export default function Home() {
             <div className="basis-1/3 flex-1" data-aos="fade-down-right">
               <Image
                 src={web1}
-                alt=""
+                alt="web1"
                 className="rounded-lg object-cover"
                 height={"100%"}
                 width={"100%"}
                 layout="responsive"
               />
 
-              <div class="flex">
-                <div class="grow h-14">
+              <div className="flex">
+                <div className="grow h-14">
                   <h4 className="py-4 text-teal-600 font-bold">
                     Water Refilling Station Management System w/ POS<br></br>
                     <span className=" text-gray-500 font-semibold">
@@ -343,7 +364,7 @@ export default function Home() {
                     </span>
                   </h4>
                 </div>
-                <div class="flex pt-5 mb-12">
+                <div className="flex pt-5 mb-12">
                   <a
                     className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
                     href="https://drive.google.com/file/d/10j9MKPFU--L_35IP_5MVr5ioJ6gJU3nu/view?usp=drive_link"
@@ -357,15 +378,15 @@ export default function Home() {
             <div className="basis-1/3 flex-1" data-aos="fade-down-left">
               <Image
                 src={web2}
-                alt=""
+                alt="web2"
                 className="rounded-lg object-cover"
                 height={"100%"}
                 width={"100%"}
                 layout="responsive"
               />
 
-              <div class="flex">
-                <div class="grow h-14">
+              <div className="flex">
+                <div className="grow h-14">
                   <h4 className="py-4 text-teal-600 font-bold">
                     Installment Management System w/ POS
                     <br></br>
@@ -380,7 +401,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1" data-aos="fade-up">
               <Image
                 src={web5}
-                alt=""
+                alt="web5"
                 className="rounded-lg object-cover"
                 height={"100%"}
                 width={"100%"}
@@ -393,8 +414,8 @@ export default function Home() {
                 </span>
               </h4> */}
 
-              <div class="flex">
-                <div class="grow h-14">
+              <div className="flex">
+                <div className="grow h-14">
                   <h4 className="py-4 text-teal-600 font-bold">
                     Adventures Note Tracker<br></br>
                     <span className=" text-gray-500 font-semibold">
@@ -403,7 +424,7 @@ export default function Home() {
                     </span>
                   </h4>
                 </div>
-                <div class="flex pt-5 ">
+                <div className="flex pt-5 ">
                   <a
                     className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
                     href="https://drive.google.com/file/d/1jrVqR7nP6hm7BPwfHHzVRCCzor5MH130/view?usp=sharing"
@@ -417,6 +438,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Design />
     </div>
   );
 }
