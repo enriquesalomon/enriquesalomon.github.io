@@ -59,7 +59,7 @@ function Design() {
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: "#008080",
         },
         links: {
           color: "#ffffff",
@@ -75,14 +75,14 @@ function Design() {
             default: "bounce",
           },
           random: false,
-          speed: 6,
+          speed: 1,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 100,
         },
         opacity: {
           value: 0.5,
@@ -101,7 +101,6 @@ function Design() {
 
   return (
     <div>
-      {" "}
       <Particles
         id="tsparticles"
         particlesLoaded={particlesLoaded}
@@ -110,5 +109,4 @@ function Design() {
     </div>
   );
 }
-
 export default Design;
