@@ -30,6 +30,7 @@ import mongodb from "../public/toolsicons/mongodb.png";
 import nosql from "../public/toolsicons/nosql.png";
 import php from "../public/toolsicons/php.png";
 import firebase from "../public/toolsicons/firebase.png";
+import supabase from "../public/toolsicons/supabase.png";
 import git from "../public/toolsicons/git.png";
 import bitbucket from "../public/toolsicons/bitbucket.png";
 import canva from "../public/toolsicons/canva.png";
@@ -171,27 +172,27 @@ export default function Home() {
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={reactsvg} alt="react" />
-                  <span className="text-sm">React Js</span>
+                  <span className="text-sm pt-1 pl-1">React Js</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={vuejslogo} alt="vue" />
-                  <span className="text-sm">Vue Js</span>
+                  <span className="text-sm pt-1 pl-1">Vue Js</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={html5} alt="html" />
-                  <span className="text-sm">HTML</span>
+                  <span className="text-sm pt-1 pl-1">HTML</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={css3} alt="cssr" />
-                  <span className="text-sm">CSS</span>
+                  <span className="text-sm pt-1 pl-1">CSS</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={js} alt="js" />
-                  <span className="text-sm">JavaScript</span>
+                  <span className="text-sm pt-1 pl-1">JavaScript</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={bootstrap} alt="bs" />
-                  <span className="text-sm">Bootstrap</span>
+                  <span className="text-sm pt-1 pl-1">Bootstrap</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image
@@ -199,11 +200,11 @@ export default function Home() {
                     src={tailwind}
                     alt="tailwind"
                   />
-                  <span className="text-sm">TailwinCSS</span>
+                  <span className="text-sm pt-1 pl-1">TailwinCSS</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={vuetify} alt="ve" />
-                  <span className="text-sm">Vuetify</span>
+                  <span className="text-sm pt-1  pl-1">Vuetify</span>
                 </div>
               </div>
             </div>
@@ -215,7 +216,7 @@ export default function Home() {
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div className="border-2 rounded-lg flex px-2 py-2 ">
                   <Image style={{ width: "30px" }} src={nodejs} alt="nodejs " />
-                  <span className="text-sm">Node Js</span>
+                  <span className="text-sm pt-1 pl-1">Node Js</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image
@@ -223,7 +224,7 @@ export default function Home() {
                     src={express}
                     alt="express"
                   />
-                  <span className="text-sm">Express Js</span>
+                  <span className="text-sm pt-1  pl-1">Express Js</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image
@@ -231,15 +232,15 @@ export default function Home() {
                     src={mongodb}
                     alt="mongodb"
                   />
-                  <span className="text-sm">MongoDB</span>
+                  <span className="text-sm pt-1  pl-1">MongoDB</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={nosql} alt="nosql" />
-                  <span className="text-sm">NoSQL</span>
+                  <span className="text-sm pt-1  pl-1">NoSQL</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={php} alt="php" />
-                  <span className="text-sm">PHP</span>
+                  <span className="text-sm pt-1  pl-1">PHP</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image
@@ -247,7 +248,15 @@ export default function Home() {
                     src={firebase}
                     alt="firebase"
                   />
-                  <span className="text-sm">Firebase</span>
+                  <span className="text-sm pt-1  pl-1">Firebase</span>
+                </div>
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image
+                    style={{ width: "30px" }}
+                    src={supabase}
+                    alt="supabase"
+                  />
+                  <span className="text-sm pt-1  pl-1">Supabase</span>
                 </div>
               </div>
             </div>
@@ -259,7 +268,7 @@ export default function Home() {
               <div className="text-xl  gap-1 py-3 grid grid-cols-2 ">
                 <div className="border-2 rounded-lg flex px-2 py-2 ">
                   <Image style={{ width: "30px" }} src={git} alt="git" />
-                  <span className="text-sm">Git</span>
+                  <span className="text-sm pt-1  pl-1">Git</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image
@@ -267,19 +276,21 @@ export default function Home() {
                     src={bitbucket}
                     alt="bitbucket"
                   />
-                  <span className="text-sm">Bitbucket</span>
+                  <span className="text-sm pt-1  pl-1">Bitbucket</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={canva} alt="canva" />
-                  <span className="text-sm">Canva</span>
+                  <span className="text-sm pt-1  pl-1">Canva</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={vscode} alt="vscode" />
-                  <span className="text-sm">VS Code</span>
+                  <span className="text-sm pt-1  pl-1">VS Code</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={mscode} alt="mscode" />
-                  <span className="text-sm">Microsoft Visual Studio</span>
+                  <span className="text-sm pt-1 pl-1">
+                    Microsoft Visual Studio
+                  </span>
                 </div>
               </div>
             </div>
