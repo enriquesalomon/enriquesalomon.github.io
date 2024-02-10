@@ -46,10 +46,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const onButtonClick = () => {
-    const pdfUrl = "SALOMON_RESUME_2024.pdf";
+    const pdfUrl = "Enrique's Resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "SALOMON_RESUME.pdf"; // specify the filename
+    link.download = "Enrique's Resume.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
