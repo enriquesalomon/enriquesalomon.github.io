@@ -328,11 +328,12 @@ export default function Home() {
                 <div className="flex pt-5  mb-6">
                   <a
                     className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                    href="https://drive.google.com/file/d/1izs06eI9Wn7v_MfZyq2unJ-PXatjiiAg/view?usp=drive_link"
+                    href="https://react-pizza-order-dusky.vercel.app/"
                     target="_blank"
                   >
-                    View
+                    Demo
                   </a>
+                  {/* href="https://drive.google.com/file/d/1izs06eI9Wn7v_MfZyq2unJ-PXatjiiAg/view?usp=drive_link" */}
                 </div>
               </div>
             </div>
