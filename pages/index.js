@@ -31,6 +31,7 @@ import nosql from "../public/toolsicons/nosql.png";
 import php from "../public/toolsicons/php.png";
 import firebase from "../public/toolsicons/firebase.png";
 import supabase from "../public/toolsicons/supabase.png";
+import sql from "../public/toolsicons/sql.png";
 import git from "../public/toolsicons/git.png";
 import bitbucket from "../public/toolsicons/bitbucket.png";
 import canva from "../public/toolsicons/canva.png";
@@ -257,6 +258,10 @@ export default function Home() {
                     alt="supabase"
                   />
                   <span className="text-sm pt-1  pl-1">Supabase</span>
+                </div>
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={sql} alt="sql" />
+                  <span className="text-sm pt-1  pl-1">SQL</span>
                 </div>
               </div>
             </div>
