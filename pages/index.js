@@ -201,7 +201,7 @@ export default function Home() {
                     src={tailwind}
                     alt="tailwind"
                   />
-                  <span className="text-sm pt-1 pl-1">TailwinCSS</span>
+                  <span className="text-sm pt-1 pl-1">TailwindCSS</span>
                 </div>
                 <div className="border-2 rounded-lg flex px-2 py-2">
                   <Image style={{ width: "30px" }} src={vuetify} alt="ve" />
