@@ -9,7 +9,7 @@ import deved from "../public/en.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/project/lantaupos.png";
+import web1 from "../public/project/lantaupos.jpg";
 import web2 from "../public/project/abgadget.png";
 import web3 from "../public/project/fastpizza.png";
 import web4 from "../public/project/natours.jpg";
