@@ -15,6 +15,7 @@ import web3 from "../public/project/fastpizza.png";
 import web4 from "../public/project/natours.jpg";
 import web5 from "../public/project/worldwise.png";
 import web6 from "../public/project/digibet.png";
+import web7 from "../public/project/wildoasis.png";
 import reactsvg from "../public/toolsicons/react.svg";
 import vuejslogo from "../public/toolsicons/vuejslogo.png";
 import express from "../public/toolsicons/express-js.png";
@@ -484,6 +485,28 @@ export default function Home() {
                     Demo
                   </a>
                   {/* href="https://drive.google.com/file/d/1izs06eI9Wn7v_MfZyq2unJ-PXatjiiAg/view?usp=drive_link" */}
+                </div>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1" data-aos="fade-up">
+              <Image
+                src={web7}
+                alt="web7"
+                className="rounded-lg object-cover"
+                height={"100%"}
+                width={"100%"}
+                layout="responsive"
+              />
+
+              <div className="flex">
+                <div className="grow h-14">
+                  <h4 className="py-4 text-teal-600 font-bold">
+                    Cabin Booking App<br></br>
+                    <span className=" text-gray-500 font-semibold">
+                      #ReactQuery, #ReduxToolkit,
+                      #Tailwindcss,#StyledComponents,#Vitejs,#Supabase
+                    </span>
+                  </h4>
                 </div>
               </div>
             </div>
