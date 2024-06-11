@@ -14,7 +14,7 @@ import web2 from "../public/project/abgadget.png";
 import web3 from "../public/project/fastpizza.png";
 import web4 from "../public/project/natours.jpg";
 import web5 from "../public/project/worldwise.png";
-import web6 from "../public/web6.png";
+import web6 from "../public/project/digibet.png";
 import reactsvg from "../public/toolsicons/react.svg";
 import vuejslogo from "../public/toolsicons/vuejslogo.png";
 import express from "../public/toolsicons/express-js.png";
@@ -434,12 +434,6 @@ export default function Home() {
                 width={"100%"}
                 layout="responsive"
               />
-              {/* <h4 className="py-4 text-teal-600 font-bold">
-                Adventures Note Tracker <br></br>
-                <span className=" text-gray-500 font-semibold">
-                  #ReactJS, #ReactQuery, #ReduxToolkit, #Tailwindcss
-                </span>
-              </h4> */}
 
               <div className="flex">
                 <div className="grow h-14">
@@ -459,6 +453,37 @@ export default function Home() {
                   >
                     View
                   </a>
+                </div>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1" data-aos="fade-up">
+              <Image
+                src={web6}
+                alt="web6"
+                className="rounded-lg object-cover"
+                height={"100%"}
+                width={"100%"}
+                layout="responsive"
+              />
+
+              <div className="flex">
+                <div className="grow h-14">
+                  <h4 className="py-4 text-teal-600 font-bold">
+                    Crypto Digi Bet<br></br>
+                    <span className=" text-gray-500 font-semibold">
+                      #NextJS, #ReactFramework, #Tailwindcss
+                    </span>
+                  </h4>
+                </div>
+                <div className="flex pt-5  mb-6">
+                  <a
+                    className="bg-teal-500 hover:bg-sky-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                    href="https://crypto-game-v1.vercel.app/"
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                  {/* href="https://drive.google.com/file/d/1izs06eI9Wn7v_MfZyq2unJ-PXatjiiAg/view?usp=drive_link" */}
                 </div>
               </div>
             </div>
