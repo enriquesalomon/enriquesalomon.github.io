@@ -38,6 +38,7 @@ import bitbucket from "../public/toolsicons/bitbucket.png";
 import canva from "../public/toolsicons/canva.png";
 import vscode from "../public/toolsicons/vscode.png";
 import mscode from "../public/toolsicons/mscode.png";
+import pbi from "../public/toolsicons/pbi.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -297,6 +298,10 @@ export default function Home() {
                   <span className="text-sm pt-1 pl-1">
                     Microsoft Visual Studio
                   </span>
+                </div>
+                <div className="border-2 rounded-lg flex px-2 py-2">
+                  <Image style={{ width: "30px" }} src={pbi} alt="pbi" />
+                  <span className="text-sm pt-1 pl-1">Power BI</span>
                 </div>
               </div>
             </div>
