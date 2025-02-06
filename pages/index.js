@@ -38,7 +38,7 @@ import bitbucket from "../public/toolsicons/bitbucket.png";
 import canva from "../public/toolsicons/canva.png";
 import vscode from "../public/toolsicons/vscode.png";
 import mscode from "../public/toolsicons/mscode.png";
-import pbi from "../public/toolsicons/pbi.png";
+import pbi from "../public/toolsicons/Pbi.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
